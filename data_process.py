@@ -11,7 +11,8 @@ registration_data[['County GEOID', 'Registration Valid Date']] = registration_da
 # print(registration_data.head())
 # print(df['County GEOID'].unique())
 # print(df['Registration Valid Date'].unique())
-
+# print(len(df['Vehicle ID'].unique()))
+# print(len(df['Vehicle ID']))    # 2542443
 
 data = np.zeros([116, 11]).astype(np.int32)
 
