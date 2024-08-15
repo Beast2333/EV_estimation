@@ -4,46 +4,94 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22ebdbd8-95b4-4413-aa62-d609a60f3267" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/EV_estimation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="22ebdbd8-95b4-4413-aa62-d609a60f3267" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/data/CA_Counties/CA_Counties_TIGER2016.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CA_Counties/CA_Counties_TIGER2016.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CA_Counties/CA_Counties_TIGER2016.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CA_Counties/CA_Counties_TIGER2016.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CA_Counties/CA_Counties_TIGER2016.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CA_Counties/CA_Counties_TIGER2016.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CA_Counties/CA_Counties_TIGER2016.shp - 副本.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CA_Counties/CA_Counties_TIGER2016.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CA_Counties/CA_Counties_TIGER2016.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CA_EV_registration.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/EV_Chargers_Last_updated_03-20-2023_ada.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Social and economic characteristics/ACSCP5Y2022.CP05_2024-08-14T205800.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Social and economic characteristics/ACSCP5Y2022.CP05_2024-08-14T205800/ACSCP5Y2022.CP05-Column-Metadata.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Social and economic characteristics/ACSCP5Y2022.CP05_2024-08-14T205800/ACSCP5Y2022.CP05-Data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Social and economic characteristics/ACSCP5Y2022.CP05_2024-08-14T205800/ACSCP5Y2022.CP05-Table-Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Social and economic characteristics/Web_ACS2022_18_Pop-Race.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/column.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/registration_quantity.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2kfyuPJJfQm9phIdZpkhfrCtH5D" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.data_process.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.data_process">
+    <configuration name="data_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EV_estimation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="EV_estimation" />
       <option name="ENV_FILES" value="" />
@@ -67,6 +115,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.data_process" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -84,7 +137,17 @@
       <option name="presentableId" value="Default" />
       <updated>1723689147863</updated>
       <workItem from="1723689170196" duration="1012000" />
+      <workItem from="1723710540765" duration="2685000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1723709432433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723709432433</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +164,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -111,5 +178,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EV_estimation$data_process.coverage" NAME="data_process 覆盖结果" MODIFIED="1723713229463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
