@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22ebdbd8-95b4-4413-aa62-d609a60f3267" name="Changes" comment="Changes">
+    <list default="true" id="22ebdbd8-95b4-4413-aa62-d609a60f3267" name="Changes" comment="pop and income">
       <change afterPath="$PROJECT_DIR$/data/CA_Counties/CA_Counties_TIGER2016.cpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/CA_Counties/CA_Counties_TIGER2016.dbf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/CA_Counties/CA_Counties_TIGER2016.prj" afterDir="false" />
@@ -16,15 +16,11 @@
       <change afterPath="$PROJECT_DIR$/data/CA_Counties/CA_Counties_TIGER2016.shx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/CA_EV_registration.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/EV_Chargers_Last_updated_03-20-2023_ada.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Social and economic characteristics/ACSCP5Y2022.CP05_2024-08-14T205800.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Social and economic characteristics/ACSCP5Y2022.CP05_2024-08-14T205800/ACSCP5Y2022.CP05-Column-Metadata.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Social and economic characteristics/ACSCP5Y2022.CP05_2024-08-14T205800/ACSCP5Y2022.CP05-Data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Social and economic characteristics/ACSCP5Y2022.CP05_2024-08-14T205800/ACSCP5Y2022.CP05-Table-Notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Social and economic characteristics/Web_ACS2022_18_Pop-Race.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/column.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gis_process.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gis_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/gis_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/population_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/population_process.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,24 +48,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.data_process.executor": "Run",
-    "Python.gis_process.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.data_process.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gis_process.executor&quot;: &quot;Run&quot;,
+    &quot;Python.population_process.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.gis_process">
+}</component>
+  <component name="RunManager" selected="Python.population_process">
     <configuration name="data_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EV_estimation" />
       <option name="ENV_FILES" value="" />
@@ -139,8 +136,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="population_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EV_estimation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/population_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.population_process" />
         <item itemvalue="Python.gis_process" />
         <item itemvalue="Python.data_process" />
       </list>
@@ -162,7 +183,10 @@
       <option name="presentableId" value="Default" />
       <updated>1723689147863</updated>
       <workItem from="1723689170196" duration="1012000" />
-      <workItem from="1723710540765" duration="6426000" />
+      <workItem from="1723710540765" duration="8543000" />
+      <workItem from="1723771884583" duration="600000" />
+      <workItem from="1723776725600" duration="6643000" />
+      <workItem from="1723786576414" duration="18737000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -180,7 +204,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723713897933</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gis">
+      <option name="closed" value="true" />
+      <created>1723730710033</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723730710033</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pop and income">
+      <option name="closed" value="true" />
+      <created>1723819663871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723819663871</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +239,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="gis" />
+    <MESSAGE value="pop and income" />
+    <option name="LAST_COMMIT_MESSAGE" value="pop and income" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -213,7 +255,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/EV_estimation$data_process.coverage" NAME="data_process 覆盖结果" MODIFIED="1723729976592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/EV_estimation$gis_process.coverage" NAME="gis_process 覆盖结果" MODIFIED="1723729990663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EV_estimation$data_process.coverage" NAME="data_process 覆盖结果" MODIFIED="1723818177276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EV_estimation$population_process.coverage" NAME="population_process 覆盖结果" MODIFIED="1723827767223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EV_estimation$gis_process.coverage" NAME="gis_process 覆盖结果" MODIFIED="1723822543956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

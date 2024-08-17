@@ -29,10 +29,9 @@ for row in registration_data.itertuples():
     except ValueError:
         if i == 'Unknown':
             data[0, (int(j[0:4]) - 2010)] += 1
-            # print('success')
-        # else:
-            # print(i)
-            # print(j)
+        else:
+            print(i)
+            print(j)
         continue
 
 print(data)
